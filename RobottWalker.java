@@ -14,6 +14,7 @@ public class RobottWalker extends Robot implements Stop {
 
 	}
 
+	@Override
 	public void work() {
 		System.out.println("My name is " + getName()
 				+ ", I'm walking - it's my work");
